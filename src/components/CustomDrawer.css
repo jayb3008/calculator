@@ -1,0 +1,32 @@
+.drawer-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.custom-drawer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 350px;
+  background-color: white;
+  border-radius: 16px 16px 0 0;
+  z-index: 1001;
+}
+
+.drawer-content {
+  padding: 20px;
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+.drawer-content::-webkit-scrollbar {
+  display: none;
+} 
