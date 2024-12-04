@@ -185,6 +185,9 @@
   grid-template-columns: repeat(5, 1fr);
   gap: 8px;
   margin-bottom: 8px;
+  @media (max-width: 400px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .number-pad {
